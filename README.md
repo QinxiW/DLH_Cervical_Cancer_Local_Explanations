@@ -6,28 +6,24 @@ Main notebook can be found at: [DL4H_Team_94.ipynb](https://github.com/QinxiW/DL
 ## Specification of dependencies
 Python 3.10, pip packages included at [requirement.txt](https://github.com/QinxiW/DLH_Cervical_Cancer_Local_Explanations/blob/main/requirements.txt)
 
-# Table of contents of the main notebook
-## Introduction
-## Methodology
-## Data
+## Table of contents of the main notebook
+### Introduction
+The general problem and specific approach in the original paper
+### Methodology
+#### Data
 The dataset used in the paper is available from the UCI repository (Fernandes et al., 2017). It is open source, and available on Kaggle for download directly. We kept a copy of the data in the /data directory.
-## Model
-### Training
+#### Model
+Define the 5 different model architectures that have widely been used in prior literature for cervical cancer risk assessment
+#### Training
 Training code 
-### Evaluation
+#### Evaluation
 Evaluation code
-## Results
-### Explainability results
-#### Feature importance
-#### Ablation Study
-### Analyses
-#### One instance
-#### Eval of explainability
-##### Faithfulness
-##### Contribution
-##### Consistency
-##### Compactness
-##### Stability
-##### Feature and Rank disagreement
-## Discussions
-## References 
+### Results
+Model eval and empirical study result on local explanation techniques
+#### Explainability results
+##### Feature importance and local explanation methods generation
+##### Ablation Study
+#### Analyses of explainability
+Faithfulness, Contribution, Consistency, Compactness, Stability, Feature and Rank disagreement
+### Discussions
+### References 
