@@ -6,26 +6,38 @@ Main notebook can be found at: [DL4H_Team_94.ipynb](https://github.com/QinxiW/DL
 ## Specification of dependencies
 To run the notebook please use Python 3.10, pip packages included at [requirement.txt](https://github.com/QinxiW/DLH_Cervical_Cancer_Local_Explanations/blob/main/requirements.txt)
 
+## Running the code
+We recommend that you run the notebook in top-down order, execute each previous code block before the next.
+The one part you can skip is the local explanation generation for the 5 models under 'Explainability results' section, 
+this is the most computation intensive chunk of all the operations. The local explainability results we generated using
+the methods in the original paper 
+
+-------------------------------------------------------------------------
 ## Table of contents of the main notebook
 ### Introduction
 The general problem and specific approach in the original paper
 ### Methodology
-Recommend running the notebook in order
+package installations and setup
 #### Data
 The dataset used in the paper is available from the UCI repository (Fernandes et al., 2017). It is open source, and available on Kaggle for download directly. We kept a copy of the data in the /data directory.
 #### Model
-Define the 5 different model architectures that have widely been used in prior literature for cervical cancer risk assessment
+Define the 5 model architecturesZ that have widely been used in prior literature for cervical cancer risk assessment
 #### Training
-Training code
+Training the 5 models, hyperparams and computation requirement discussions
 #### Evaluation
-Evaluation code
+Metrics descriptions, evaluation the 5 models
 ### Results
 Model eval and empirical study result on local explanation techniques
 #### Explainability results
 you can skip the local explanation methods in each of the model and load it back into memory here
 ##### Feature importance and local explanation methods generation
+Examine feature importances in the models, and generate local explanations including SHAP, TreeSHAP, LIME, DICE and other related interpretability methods
 ##### Ablation Study
+Remove features one at a time and compare model performance
 #### Analyses of explainability
 Faithfulness, Contribution, Consistency, Compactness, Stability, Feature and Rank disagreement
 ### Discussions
-### References 
+Discuss the implications of the hypothesis and results from the original paper along with our reproduced results
+Retro on what went well vs difficult, along with suggestions for improving reproducibility
+### References
+citation of the original paper
