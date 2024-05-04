@@ -15,11 +15,13 @@ the methods in the original pape, and in the notebook we provided code to load t
 -------------------------------------------------------------------------
 ## Table of contents of the main notebook
 ### Introduction
-The general problem and specific approach in the original paper
+Present the general problem and specific approach in the original paper
 ### Methodology
+#### Environment
 package installations and setup
 #### Data
 The dataset used in the paper is available from the UCI repository (Fernandes et al., 2017). It is open source, and available on Kaggle for download directly. We kept a copy of the data in the /data directory.
+Load and process dataset, including analysis, visualization, and train/test split.
 #### Model
 Define the 5 model architecturesZ that have widely been used in prior literature for cervical cancer risk assessment
 #### Training
@@ -29,7 +31,7 @@ Metrics descriptions, evaluation the 5 models
 ### Results
 Model eval and empirical study result on local explanation techniques
 #### Explainability results
-you can skip the local explanation methods in each of the model and load it back into memory here
+Generate local explanations for each trained model (you can skip the local explanation methods in each of the model and load it back into memory here
 ##### Feature importance and local explanation methods generation
 Examine feature importances in the models, and generate local explanations including SHAP, TreeSHAP, LIME, DICE and other related interpretability methods
 ##### Ablation Study
