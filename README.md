@@ -9,8 +9,8 @@ To run the notebook please use Python 3.10, pip packages included at [requiremen
 ## Running the code
 We recommend that you run the notebook in top-down order, execute each previous code block before the next.
 The one part you can skip is the local explanation generation for the 5 models under 'Explainability results' section, 
-this is the most computation intensive chunk of all the operations. The local explainability results we generated using
-the methods in the original paper 
+this is the most computation intensive chunk of all the operations. We saved the local explainability results generated using
+the methods in the original pape, and in the notebook we provided code to load them again in the 'Analyses' subsection under 'Results'. 
 
 -------------------------------------------------------------------------
 ## Table of contents of the main notebook
